@@ -21,8 +21,14 @@ app.get('/article-two',function(req,res){
     res.send('aritcle two')
 });
 
-app.get('/article-three',function(req,res){
-    res.send('aritcle three')
+app.get('/article-one',function(req,res){
+    res.send('aritcle one')
+});
+
+app.get('/syntax',function(req,res){
+    res.send('This is to send a simple text file  app.get('/article-one',function(req,res){
+    res.send('aritcle one')
+});      ')
 });
 
 app.get('/ui/madi.png', function (req, res) {
