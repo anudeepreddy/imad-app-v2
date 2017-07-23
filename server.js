@@ -14,21 +14,15 @@ app.get('/ui/style.css', function (req, res) {
 });
 
 app.get('/article-one',function(req,res){
-    res.send('aritcle one')
+    res.send('aritcle one');
 });
 
 app.get('/article-two',function(req,res){
-    res.send('aritcle two')
+    res.send('aritcle two');
 });
 
 app.get('/article-one',function(req,res){
-    res.send('aritcle one')
-});
-
-app.get('/syntax',function(req,res){
-    res.send('This is to send a simple text file  app.get('/article-one',function(req,res){
-    res.send('aritcle one')
-});      ')
+    res.send('aritcle one');
 });
 
 app.get('/ui/madi.png', function (req, res) {
